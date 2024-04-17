@@ -1,0 +1,61 @@
+/* CSS module for styling the opening page */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #b22222;
+    /* Adjust this to match your actual brand color */
+    color: white;
+    font-family: 'Arial', sans-serif;
+    /* Update this as per your design */
+    padding: 0 20px;
+    /* Padding to ensure content is not flush against the screen edges */
+}
+
+.logo {
+    margin-bottom: 2rem;
+}
+
+.logoImage {
+    /* You can set a specific size for your logo here if needed */
+    max-width: 100%;
+    height: auto;
+}
+
+.tagline {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 1.25rem;
+    /* Update this as per your design */
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginButton {
+    background-color: white;
+    color: #b22222;
+    /* This should be the same as the container background color */
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.signupPrompt {
+    font-size: 0.9rem;
+}
+
+.signupLink {
+    color: white;
+    text-decoration: none;
+}
